@@ -2,7 +2,6 @@
   "name": "webpackDemo",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "dependencies": {
     "lodash": "^4.17.15"
   },
@@ -11,7 +10,8 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
